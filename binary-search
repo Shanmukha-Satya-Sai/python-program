@@ -1,0 +1,16 @@
+l=list(map(int,input().split()))
+k=int(input())
+l.sort()
+s=0
+e=len(l)-1
+while s<=e:
+    mid=(s+e)//2
+    if l[mid]==k:
+        print("found")
+        break
+    elif k<l[mid]:
+        e=mid-1
+    else:
+        s=mid+1
+else:
+    print("element not found")
