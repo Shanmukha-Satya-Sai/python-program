@@ -43,5 +43,4 @@ Initially, word = "a". We need to do the operation four times:
 Generated string is "b", word becomes "ab".
 Generated string is "bc", word becomes "abbc".
 Generated string is "bccd", word becomes "abbcbccd".
-Generated string is "abbcbccd", word becomes "abbcbccdbccdcdde"."""
-
+Generated string is "abbcbccd", word becomes "abbcbccdbccdcdde".
